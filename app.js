@@ -121,7 +121,7 @@ function updatePrice() {
 }
 
 var whatsappLink =
-  "https://api.whatsapp.com/send?phone=919000000000&text=Order%20details";
+  "https://api.whatsapp.com/send?phone=919965080961&text=Order%20details";
 
 // WhatsApp intergration
 function updateWhatsappLink() {
