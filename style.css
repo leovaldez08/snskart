@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 
 * {
   margin: 0;
@@ -7,10 +8,6 @@
 
 body {
   font-family: "Rubik", sans-serif;
-}
-
-.books {
-  max-width: 200px;
 }
 
 .games,
@@ -27,8 +24,8 @@ body {
   padding: 5%;
 }
 
-.space-between {
-  justify-content: space-between;
+.center {
+  justify-content: center;
   align-items: center;
 }
 
@@ -98,20 +95,21 @@ header h5 {
 
 .buy {
   margin-top: 15px;
-  padding-bottom: 50px;
 }
 
 footer {
-  background-image: url("http://i1.faceprep.in/prograd-junior/footer-bg.png");
+  background-color: black;
   background-size: 100% 100%;
   color: white;
   padding: 0% 5%;
 }
 
 footer img {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
+  height: 120px;
+  width: 100px;
+  padding-left: 45px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #details {
@@ -146,6 +144,50 @@ h2 {
 
 .container {
   flex-wrap: wrap;
+}
+
+.products {
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.picCrop {
+  height: 300px;
+  width: 300px;
+  border: gray 1px solid;
+  border-radius: 2%;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+input {
+  height: 20px;
+  width: 140px;
+}
+
+.inputflex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.space-between {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.categories {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;;
+}
+
+#fFlex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 @media only screen and (max-width: 600px) {
