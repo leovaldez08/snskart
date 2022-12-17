@@ -140,6 +140,8 @@ function updateWhatsappLink() {
             }
         }
         whatsappLink += "%0A" + "The%20cost%20of%20this%20order%20will%20be%20between:%20₹%20" + minTotal + "%20-%20" + maxTotal;
+        whatsappLink += "%0A" + "Note:-%20The%20price%20will%20vary%20according%to%your%selection%of%brands"
+        whatsappLink += "%0A%0A" + "Our%20sales%20executive%20will%20contact%20you%20shortly"
     }
     addDetails(impt,impt.length);
 }
