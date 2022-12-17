@@ -3,17 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kidz World</title>
+    <title>SNS Kart</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./others/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./others/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./others/favicon-16x16.png">
+    <link rel="manifest" href="./others/site.webmanifest">
+    <link rel="mask-icon" href="./others/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./others/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="./others/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
   </head>
 
   <body>
     <nav class="flex space-between">
-      <div>
-        <img src="./assets/kw-logo.png" alt="" />
+      <div id="logo">
+
       </div>
-      <div id="cart" class="flex">
-        <img src="./assets/cart-icon.png" alt="" />
+      <div id="cartMain" class="flex">
+        <img src="./New assets/cart-icon.png" alt="" />
         <p>Cart items (<span id="cart-value">0</span>)</p>
       </div>
     </nav>
@@ -26,15 +35,17 @@
               <img class="games picCrop" src="./New assets/balm.jpg" alt="" />
               <h3 class="textCenter">Balm</h3>
               <div class="inputflex">
-                <input type="text" placeholder="Enter brand">
-                <input type="text" placeholder="Enter Quantity">
+                <input type="text" placeholder="Enter brand" id="esb1">
+                <input type="number" placeholder="Enter Quantity" class="number" id="es1" min="0">
               </div>
             </div>
             <div class="buy flex space-between">
               <p>₹ 20-150</p>
-              <div id="book1" class="button flex space-evenly">
-                <h6>Add</h6>
-                <img src="./assets/cart-icon-white.png" alt="" />
+              <div class="green">
+                <div id="essentials1" class="button flex">
+                  <h6>Add</h6>
+                  <img src="./New assets/cart-icon-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -47,15 +58,17 @@
               />
               <h3 class="textCenter">Body Lotion</h3>
               <div class="inputflex">
-                <input type="text" placeholder="Enter brand">
-                <input type="text" placeholder="Enter Quantity">
+                <input type="text" placeholder="Enter brand" id="esb2">
+                <input type="number" placeholder="Enter Quantity" class="number" id="es2" min="0">
               </div>
             </div>
             <div class="buy flex space-between">
               <p>₹ 300 - 400</p>
-              <div id="book2" class="button flex space-evenly">
-                <h6>Add</h6>
-                <img src="./assets/cart-icon-white.png" alt="" />
+              <div class="green">
+                <div id="essentials2" class="button flex">
+                  <h6>Add</h6>
+                  <img src="./New assets/cart-icon-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -64,15 +77,17 @@
               <img class="games picCrop" src="./New assets/conditoner.png" alt="" />
               <h3 class="textCenter">Conditioner</h3>
               <div class="inputflex">
-                <input type="text" placeholder="Enter brand">
-                <input type="text" placeholder="Enter Quantity">
+                <input type="text" placeholder="Enter brand" id="esb3">
+                <input type="number" placeholder="Enter Quantity" class="number" id="es3" min="0">
               </div>
             </div>
             <div class="buy flex space-between">
               <p>₹ 150-250</p>
-              <div id="book3" class="button flex space-evenly">
-                <h6>Add</h6>
-                <img src="./assets/cart-icon-white.png" alt="" />
+              <div class="green">
+                <div id="essentials3" class="button flex">
+                  <h6>Add</h6>
+                  <img src="./New assets/cart-icon-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -85,15 +100,17 @@
               />
               <h3 class="textCenter">Face Wash</h3>
               <div class="inputflex">
-                <input type="text" placeholder="Enter brand">
-                <input type="text" placeholder="Enter Quantity">
+                <input type="text" placeholder="Enter brand" id="esb4">
+                <input type="number" placeholder="Enter Quantity" class="number" id="es4" min="0">
               </div>
             </div>
             <div class="buy flex space-between">
-              <p>₹ 80-250</p>
-              <div id="book4" class="button flex space-evenly">
-                <h6>Add</h6>
-                <img src="./assets/cart-icon-white.png" alt="" />
+              <p>₹ 150-300</p>
+              <div class="green">
+                <div id="essentials4" class="button flex">
+                  <h6>Add</h6>
+                  <img src="./New assets/cart-icon-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -102,15 +119,17 @@
               <img class="games picCrop" src="./New assets/shampoo.png" alt="" />
               <h3 class="textCenter">Shampoo</h3>
               <div class="inputflex">
-                <input type="text" placeholder="Enter brand">
-                <input type="text" placeholder="Enter Quantity">
+                <input type="text" placeholder="Enter brand" id="esb5">
+                <input type="number" placeholder="Enter Quantity" class="number" id="es5" min="0">
               </div>
             </div>
             <div class="buy flex space-between">
               <p>₹ 200-400</p>
-              <div id="game1" class="button flex space-evenly">
-                <h6>Add</h6>
-                <img src="./assets/cart-icon-white.png" alt="" />
+              <div class="green">
+                <div id="essentials5" class="button flex">
+                  <h6>Add</h6>
+                  <img src="./New assets/cart-icon-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -119,15 +138,17 @@
               <img class="games picCrop" src="./New assets/tooth paste.jpg" alt="" />
               <h3 class="textCenter">Tooth Paste</h3>
               <div class="inputflex">
-                <input type="text" placeholder="Enter brand">
-                <input type="text" placeholder="Enter Quantity">
+                <input type="text" placeholder="Enter brand" id="esb6">
+                <input type="number" placeholder="Enter Quantity" class="number" id="es6" min="0">
               </div>
             </div>
             <div class="buy flex space-between">
               <p>₹ 20-100</p>
-              <div id="game2" class="button flex space-evenly">
-                <h6>Add</h6>
-                <img src="./assets/cart-icon-white.png" alt="" />
+              <div class="green">
+                <div id="essentials6" class="button flex">
+                  <h6>Add</h6>
+                  <img src="./New assets/cart-icon-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -136,15 +157,17 @@
               <img class="games picCrop" src="./New assets/washing liquid.jpg" alt="washing_liquid_img" />
               <h3 class="textCenter">Liquid Detergent</h3>
               <div class="inputflex">
-                <input type="text" placeholder="Enter brand">
-                <input type="text" placeholder="Enter Quantity">
+                <input type="text" placeholder="Enter brand" id="esb7">
+                <input type="number" placeholder="Enter Quantity" class="number" id="es7" min="0">
               </div>
             </div>
             <div class="buy flex space-between">
               <p>₹ 200-600 </p>
-              <div id="game3" class="button flex space-evenly">
-                <h6>Add</h6>
-                <img src="./assets/cart-icon-white.png" alt="" />
+              <div class="green">
+                <div id="essentials7" class="button flex">
+                  <h6>Add</h6>
+                  <img src="./New assets/cart-icon-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -153,15 +176,17 @@
               <img class="games picCrop" src="./New assets/sanitary pads.jpg" alt="" />
               <h3 class="textCenter">Sanitary Pads</h3>
               <div class="inputflex">
-                <input type="text" placeholder="Enter brand">
-                <input type="text" placeholder="Enter Quantity">
+                <input type="text" placeholder="Enter brand" id="esb8">
+                <input type="number" placeholder="Enter Quantity" class="number" id="es8" min="0">
               </div>
             </div>
             <div class="buy flex space-between">
               <p>₹ 35-250</p>
-              <div id="book6" class="button flex space-evenly">
-                <h6>Add</h6>
-                <img src="./assets/cart-icon-white.png" alt="" />
+              <div class="green">
+                <div id="essentials8" class="button flex">
+                  <h6>Add</h6>
+                  <img src="./New assets/cart-icon-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -170,15 +195,17 @@
               <img class="games picCrop" src="./New assets/oil.jpg" alt="" />
               <h3 class="textCenter">Hair oil</h3>
               <div class="inputflex">
-                <input type="text" placeholder="Enter brand">
-                <input type="text" placeholder="Enter Quantity">
+                <input type="text" placeholder="Enter brand" id="esb9">
+                <input type="number" placeholder="Enter Quantity" class="number" id="es9" min="0">
               </div>
             </div>
             <div class="buy flex space-between">
               <p>₹ 50-250</p>
-              <div id="book6" class="button flex space-evenly">
-                <h6>Add</h6>
-                <img src="./assets/cart-icon-white.png" alt="" />
+              <div class="green">
+                <div id="essentials9" class="button flex">
+                  <h6>Add</h6>
+                  <img src="./New assets/cart-icon-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -193,15 +220,17 @@
               <img class="crafts picCrop" src="./New assets/biscuits.jpg" alt="biscuit_img" />
               <h3 class="textCenter">Biscuits</h3>
               <div class="inputflex">
-                <input type="text" placeholder="Enter brand">
-                <input type="text" placeholder="Enter Quantity">
+                <input type="text" placeholder="Enter brand" id="snb1">
+                <input type="number" placeholder="Enter Quantity" class="number" id="sn1" min="0">
               </div>
             </div>
             <div class="buy flex space-between">
               <p>₹ 10-60</p>
-              <div id="craft1" class="button flex space-evenly">
-                <h6>Add</h6>
-                <img src="./assets/cart-icon-white.png" alt="" />
+              <div class="green">
+                <div id="snacks1" class="button flex">
+                  <h6>Add</h6>
+                  <img src="./New assets/cart-icon-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -210,15 +239,17 @@
               <img class="crafts picCrop" src="./New assets/chips.jpg" alt="chips_img" />
               <h3 class="textCenter">Chips</h3>
               <div class="inputflex">
-                <input type="text" placeholder="Enter brand">
-                <input type="text" placeholder="Enter Quantity">
+                <input type="text" placeholder="Enter brand" id="snb2">
+                <input type="number" placeholder="Enter Quantity" class="number" id="sn2" min="0">
               </div>
             </div>
             <div class="buy flex space-between">
               <p>₹ 10-150</p>
-              <div id="craft2" class="button flex space-evenly">
-                <h6>Add</h6>
-                <img src="./assets/cart-icon-white.png" alt="" />
+              <div class="green">
+                <div id="snacks2" class="button flex">
+                  <h6>Add</h6>
+                  <img src="./New assets/cart-icon-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -227,15 +258,17 @@
               <img class="crafts picCrop" src="./New assets/chocolate.jpg" alt="" />
               <h3 class="textCenter">Chocolate</h3>
               <div class="inputflex">
-                <input type="text" placeholder="Enter brand">
-                <input type="text" placeholder="Enter Quantity">
+                <input type="text" placeholder="Enter brand" id="snb3">
+                <input type="number" placeholder="Enter Quantity" class="number" id="sn3" min="0">
               </div>
             </div>
             <div class="buy flex space-between">
               <p>₹ 20-250</p>
-              <div id="craft3" class="button flex space-evenly">
-                <h6>Add</h6>
-                <img src="./assets/cart-icon-white.png" alt="" />
+              <div class="green">
+                <div id="snacks3" class="button flex">
+                  <h6>Add</h6>
+                  <img src="./New assets/cart-icon-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -244,15 +277,17 @@
               <img class="crafts picCrop" src="./New assets/jam.jpg" alt="jam_img" />
               <h3 class="textCenter">Jam</h3>
               <div class="inputflex">
-                <input type="text" placeholder="Enter brand">
-                <input type="text" placeholder="Enter Quantity">
+                <input type="text" placeholder="Enter brand" id="snb4">
+                <input type="number" placeholder="Enter Quantity" class="number" id="sn4" min="0">
               </div>
             </div>
             <div class="buy flex space-between">
               <p>₹ 20-200</p>
-              <div id="craft4" class="button flex space-evenly">
-                <h6>Add</h6>
-                <img src="./assets/cart-icon-white.png" alt="" />
+              <div class="green">
+                <div id="snacks4" class="button flex">
+                  <h6>Add</h6>
+                  <img src="./New assets/cart-icon-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -260,22 +295,24 @@
       </div>
 
       <div class="section">
-        <h2 class="textCenter categories">Stationary</h2>
+        <h2 class="textCenter categories">Stationery</h2>
         <div class="container flex center">
           <div class="products">
             <div>
               <img class="crafts picCrop" src="./New assets/notebooks.jpg" alt="biscuit_img" />
               <h3 class="textCenter">Notebooks</h3>
               <div class="inputflex">
-                <input type="text" placeholder="Enter brand">
-                <input type="text" placeholder="Enter Quantity">
+                <input type="text" placeholder="Enter brand" id="stb1">
+                <input type="number" placeholder="Enter Quantity" class="number" id="st1" min="0">
               </div>
             </div>
             <div class="buy flex space-between">
               <p>₹ 50-160</p>
-              <div id="craft1" class="button flex space-evenly">
-                <h6>Add</h6>
-                <img src="./assets/cart-icon-white.png" alt="" />
+              <div class="green">
+                <div id="stationery1" class="button flex">
+                  <h6>Add</h6>
+                  <img src="./New assets/cart-icon-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -284,15 +321,17 @@
               <img class="crafts picCrop" src="./New assets/pens.jpg" alt="pen_img" />
               <h3 class="textCenter">Pens</h3>
               <div class="inputflex">
-                <input type="text" placeholder="Enter brand">
-                <input type="text" placeholder="Enter Quantity">
+                <input type="text" placeholder="Enter brand" id="stb2">
+                <input type="number" placeholder="Enter Quantity" class="number" id="st2" min="0">
               </div>
             </div>
             <div class="buy flex space-between">
               <p>₹10-20</p>
-              <div id="craft2" class="button flex space-evenly">
-                <h6>Add</h6>
-                <img src="./assets/cart-icon-white.png" alt="" />
+              <div class="green">
+                <div id="stationery2" class="button flex">
+                  <h6>Add</h6>
+                  <img src="./New assets/cart-icon-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -301,15 +340,17 @@
               <img class="crafts picCrop" src="./New assets/a4sheets.jpg" alt="a4_sheets_img" />
               <h3 class="textCenter">A4 Sheets (pack of 30)</h3>
               <div class="inputflex">
-                <input type="text" placeholder="Enter brand">
-                <input type="text" placeholder="Enter Quantity">
+                <input type="text" placeholder="Enter brand" id="stb3">
+                <input type="number" placeholder="Enter Quantity" class="number" id="st3" min="0">
               </div>
             </div>
             <div class="buy flex space-between">
               <p>₹ 45</p>
-              <div id="craft3" class="button flex space-evenly">
-                <h6>Add</h6>
-                <img src="./assets/cart-icon-white.png" alt="" />
+              <div class="green">
+                <div id="stationery3" class="button flex">
+                  <h6>Add</h6>
+                  <img src="./New assets/cart-icon-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -318,15 +359,17 @@
               <img class="crafts picCrop" src="./New assets/pencil.jpg" alt="jam_img" />
               <h3 class="textCenter">Pencil</h3>
               <div class="inputflex">
-                <input type="text" placeholder="Enter brand">
-                <input type="text" placeholder="Enter Quantity">
+                <input type="text" placeholder="Enter brand" id="stb4">
+                <input type="number" placeholder="Enter Quantity" class="number" id="st4" min="0">
               </div>
             </div>
             <div class="buy flex space-between">
               <p>₹ 5-30</p>
-              <div id="craft4" class="button flex space-evenly">
-                <h6>Add</h6>
-                <img src="./assets/cart-icon-white.png" alt="" />
+              <div class="green">
+                <div id="stationery4" class="button flex">
+                  <h6>Add</h6>
+                  <img src="./New assets/cart-icon-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>

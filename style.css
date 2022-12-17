@@ -10,6 +10,10 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
+p {
+  margin-top: 12px;
+}
+
 .games,
 .crafts {
   max-width: 300px;
@@ -34,22 +38,27 @@ body {
 }
 
 nav {
-  height: 50px;
+  height: 100px;
   width: 100%;
+  background-color: rgb(220, 187, 187);
 }
 
 nav > div {
-  padding: 0% 5%;
+  padding: 10px 10px;
+  margin: 20px;
 }
 
 nav img {
   height: 30px;
 }
 
-#cart {
+#cartMain {
   font-weight: bold;
   align-items: center;
   cursor: pointer;
+  margin-top: 20px;
+  background-color: green;
+  border-radius: 5%;
 }
 
 header {
@@ -140,6 +149,14 @@ h6 {
 h3,
 h2 {
   margin-bottom: 10px;
+}
+
+.green  :hover {
+  background-color: green;
+}
+
+.rate :hover {
+  background-color: white;
 }
 
 .container {
