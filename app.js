@@ -122,7 +122,7 @@ document.getElementById("cartMain").onclick = () => {
     window.open(whatsappLink, "_blank");
 }
 
-var whatsappLink = "https://api.whatsapp.com/send?phone=919965080961&text=Hi%20SNS%20Kart,%20I%20need%20the%20following%20products.%0AOrder%20details:-";
+var whatsappLink = "https://api.whatsapp.com/send?phone=919965080961&text=Hi%20SNS%20Kart,%0AI%20need%20the%20following%20products.%0A%0AOrder%20details:-";
 
 // Whatsapp integration
 function updateWhatsappLink() {
@@ -139,9 +139,9 @@ function updateWhatsappLink() {
                 whatsappLink += "%0A" + itemName[arr[i]] + "%20-%20" + brand + ":%20" + count[arr[i]];
             }
         }
-        whatsappLink += "%0A" + "The%20cost%20of%20this%20order%20will%20be%20between:%20₹%20" + minTotal + "%20-%20" + maxTotal;
-        whatsappLink += "%0A" + "Note:-%20The%20price%20will%20vary%20according%20to%20your%20selection%20of%20brands"
-        whatsappLink += "%0A%0A" + "Our%20sales%20executive%20will%20reach%20out%20to%20you%20shortly😊"
+        whatsappLink += "%0A%0A" + "The%20cost%20of%20this%20order%20will%20be%20between:%20₹%20" + minTotal + "%20-%20" + maxTotal;
+        whatsappLink += "%0A%0A" + "Note:%20The%20price%20will%20vary%20according%20to%20your%20selection%20of%20brands"
+        whatsappLink += "%0A%0A" + "Our%20sales%20executive%20will%20reach%20out%20to%20you%20shortly%20😊"
     }
     addDetails(impt,impt.length);
 }
